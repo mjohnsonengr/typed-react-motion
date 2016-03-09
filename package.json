@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build": "typings bundle -o test ",
+    "test": "ts-node test/test.ts"
+  },
+  "private": true,
+  "devDependencies": {
+    "react-motion": "^0.4.2",
+    "ts-node": "^0.5.5",
+    "tslint": "^3.5.0",
+    "tslint-config-typings": "*",
+    "typescript": "^1.8.7"
+  }
+}
